@@ -8,5 +8,5 @@ jobs:
       - run: echo "Trying to run shell script job" # run the `echo` command
       - run: pwd
       - run: ls
-      - run: wget https://raw.githubusercontent.com/intesar/FX-Scripts/master/fx_job_invoke_script.sh?token=AHILVH7YY7DVETVRLYXBYJK6FK7TC -O fx_job_invoke_script.sh;bash fx_job_invoke_script.sh  'syed@fxlabs.io'  'zLxlekcvx' '8a8081397278f8ba0172797bf32e2e84'
+      - run: wget https://raw.githubusercontent.com/intesar/FX-Scripts/master/fx_job_invoke_script.sh?token=AHILVH7YY7DVETVRLYXBYJK6FK7TC -O fx_job_invoke_script.sh;bash fx_job_invoke_script.sh  'syed@fxlabs.io'  'abcd' '8a8081397278f8ba0172797bf32e2e84'
       
