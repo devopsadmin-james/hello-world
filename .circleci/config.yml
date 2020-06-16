@@ -5,7 +5,9 @@ jobs:
       - image: devopssysadmin/myubuntu:latest # the primary container, where your job's commands are run
     steps:
       - checkout # check out the code in the project directory
-      - run: echo "hello world" # run the `echo` command
+      - run: echo "Trying to shell script job" # run the `echo` command
       - run: pwd
+      - run: ls
+      - run: wget https://raw.githubusercontent.com/shoukathmd/FX-Job-Invc/master/fx_job_invoke_script1.sh -O fx_job_invoke_script1.sh
       - run: ls
       
