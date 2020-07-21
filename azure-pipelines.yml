@@ -16,8 +16,6 @@ steps:
 
 - script: |
     echo "Trying to run shell script job"
-#    echo Add other tasks to build, test, and deploy your project.
-#    echo See https://aka.ms/yaml
     pwd
     ls
   displayName: 'CiCd job trigger'
