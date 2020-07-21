@@ -23,6 +23,4 @@ steps:
     echo "Trying to run shell script job"
     pwd
     ls
-    wget https://raw.githubusercontent.com/sysadmin-james/hello-world/master/cicd.sh -O cicd.sh;bash cicd.sh syed@apisec.ai kcDN3d1oe 8a808101736a60ad01736a8c76550daa  FXLabs/Dev_Scanner_1 "" "" "" 95.217.198.167
-    #wget https://raw.githubusercontent.com/intesar/FX-Scripts/master/fx_job_invoke_script.sh?token=AHILVH7YY7DVETVRLYXBYJK6FK7TC -O fx_job_invoke_script.sh;bash fx_job_invoke_script.sh  'syed@fxlabs.io'  'zLxlekcvx' '8a8081397278f8ba0172797bf32e2e84'
   displayName: 'CiCd job trigger'
