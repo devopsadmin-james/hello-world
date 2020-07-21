@@ -8,7 +8,7 @@ trigger:
 
 pool:
   #vmImage: 'ubuntu-latest'
-  vmImage: 'devopssysadmin/myubuntu:latest'
+  vmImage: 'devopssysadmin/wgetcurljq:latest'
 
 steps:
 - script: echo Hello, world!
