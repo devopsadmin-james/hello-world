@@ -23,8 +23,8 @@ steps:
     echo "Trying to run shell script job"
     pwd
     ls
-    apt update
-    apt install -y curl
-    apt install -y wget
-    apt install -y jq
+    sudo apt update
+    sudo apt install -y curl
+    sudo apt install -y wget
+    sudo apt install -y jq
   displayName: 'CiCd job trigger'
