@@ -1,0 +1,26 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+variables:
+- name: custom_Image
+  value: 'devopssysadmin/wgetcurljq:latest'
+
+pool:
+  vmImage: 'ubuntu-latest'
+  #vmImage: 'devopssysadmin/wgetcurljq:latest'
+  #vmImage: $(custom_Image)
+
+steps:
+#- script: echo Hello, world!
+#  displayName: 'Run a one-line script'
+
+- script: |
+    echo "Trying to run shell script job"
+    pwd
+    ls
+  displayName: 'CiCd job trigger'
